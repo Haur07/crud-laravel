@@ -107,7 +107,7 @@
                                         <td>{{ $agenda->categoria }}</td>
                                         <td>{{ $agenda->observacao }}</td>
                                         <td class="row">
-                                            <a href="{{ route('editar', $agenda->id) }}" type="button" class="btn btn-secondary" style="margin-left: 12px">Editar</a>
+                                            <a href="{{ route('editar', $agenda->id) }}" type="button" class="btn btn-secondary" style="margin: 0px 0px 6px 12px">Editar</a>
                                             {!! Form::open(['class'=>'', 'name'=>'form', 'route'=>['excluir', $agenda->id], 'method'=>'delete']) !!}
                                                 @method('delete')
                                                 @csrf
