@@ -51,6 +51,8 @@
             }
 
             .links > a {
+                background-color: #e4d2ff;
+                border-radius: 12px;
                 color: #757575;
                 padding: 10px 25px 10px 25px;
                 font-size: 12px;
@@ -58,6 +60,10 @@
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+            }
+
+            .links >a:hover {
+                color: #ff5f5f;
             }
 
             .m-b-md {
@@ -90,16 +96,15 @@
                     Don't Put Off!
                 </div>
 
-                <div class="links_bg">
-                    <div class="links">
-                            <a href="{{ url('/home') }}">Agenda</a>
-                            <a href="#" onclick="btn_action();">Blog</a>
-                            <a href="#" onclick="btn_action();">Dúvidas frequentes</a>
-                            <a href="#" onclick="btn_action();">Contatos</a>
-                            <a href="#" onclick="btn_action();">Sobre</a>
-                            <a href="#" onclick="btn_action();">Outros sites</a>
-                    </div>
+                <div class="links">
+                        <a href="{{ url('/home') }}">Agenda</a>
+                        <a href="#" onclick="btn_action();">Blog</a>
+                        <a href="#" onclick="btn_action();">Dúvidas frequentes</a>
+                        <a href="#" onclick="btn_action();">Contatos</a>
+                        <a href="#" onclick="btn_action();">Sobre</a>
+                        <a href="#" onclick="btn_action();">Outros sites</a>
                 </div>
+
             </div>
         </div>
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
