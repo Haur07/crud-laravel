@@ -24,19 +24,19 @@
 
                         <div class="col-md-6">
                             <label for="data" class="form-label">Data</label>
-                            <input type="text" class="form-control" id="data" name="data" value="{{ $agenda->data }}">
+                            <input type="text" class="form-control" id="data" name="data" required value="{{ $agenda->data }}">
                         </div>
                         <div class="col-md-6">
                             <label for="compromisso" class="form-label">Compromisso</label>
-                            <input type="text" class="form-control" id="compromisso" name="compromisso" value="{{ $agenda->compromisso }}">
+                            <input type="text" class="form-control" id="compromisso" name="compromisso" required value="{{ $agenda->compromisso }}">
                         </div>
                         <div class="col-md-6">
                             <label for="categoria" class="form-label">Categoria</label>
-                            <input type="text" class="form-control" id="categoria" name="categoria" value="{{ $agenda->categoria }}">
+                            <input type="text" class="form-control" id="categoria" name="categoria" required value="{{ $agenda->categoria }}">
                         </div>
                         <div class="col-12" style="margin: 15px 0;">
                             <label for="observacao" class="form-label">Observação</label>
-                            <textarea class="form-control" id="observacao" name="observacao" rows="7">{{ $agenda->observacao }}</textarea>
+                            <textarea class="form-control" id="observacao" name="observacao" required rows="7">{{ $agenda->observacao }}</textarea>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Atualizar</button>

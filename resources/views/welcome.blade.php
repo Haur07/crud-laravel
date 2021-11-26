@@ -45,11 +45,6 @@
                 font-size: 84px;
             }
 
-            .links_bg {
-                background-color: #e7fff1;
-                border-radius: 10px;
-            }
-
             .links > a {
                 background-color: #e4d2ff;
                 border-radius: 12px;

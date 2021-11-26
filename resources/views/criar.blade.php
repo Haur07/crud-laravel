@@ -24,19 +24,19 @@
 
                         <div class="col-md-6">
                             <label for="data" class="form-label">Data</label>
-                            <input type="text" class="form-control" id="data" name="data" value="{{ old('data') }}">
+                            <input type="text" class="form-control" id="data" name="data" required value="{{ old('data') }}">
                         </div>
                         <div class="col-md-6">
                             <label for="compromisso" class="form-label">Compromisso</label>
-                            <input type="text" class="form-control" id="compromisso" name="compromisso" value="{{ old('compromisso') }}">
+                            <input type="text" class="form-control" id="compromisso" name="compromisso" required value="{{ old('compromisso') }}">
                         </div>
                         <div class="col-md-6">
                             <label for="categoria" class="form-label">Categoria</label>
-                            <input type="text" class="form-control" id="categoria" name="categoria" value="{{ old('categoria') }}">
+                            <input type="text" class="form-control" id="categoria" name="categoria" required value="{{ old('categoria') }}">
                         </div>
                         <div class="col-12" style="margin: 15px 0;">
                             <label for="observacao" class="form-label">Observação</label>
-                            <textarea class="form-control" id="observacao" name="observacao" rows="7">{{ old('observacao') }}</textarea>
+                            <textarea class="form-control" id="observacao" name="observacao" required rows="7">{{ old('observacao') }}</textarea>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Cadastrar</button>
